@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hotel-template.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="box-main">
+        <div class="nave">
+            <div class="ul1">
+                <a href="#Logo"><i class="fa-solid fa-bed"></i> Logo</a>
+                <a href="#Rooms">Rooms</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
+            </div>
+
+            <button class="sm">
+                <a href="#Contact">Book Now</a>
+            </button>
+        </div>
+
+        <div class="hotelname row   m-0">
+            <div class="col-sm-6">
+                <ul class="list-group border-0 rounded-0 shadow-0">
+                    <li class="list-group-item bg-danger text-light fs-3 py-4 px-4"><i class="fa-solid fa-bed me-3"></i>Hotel Name</li>
+                    <li class="list-group-item">
+                        <form class="row">
+                            <div class="col-sm-6 gy-2 ">
+                                <div class=" d-flex flex-column w-100">
+                                    <label for=""><i class="fa-regular fa-calendar me-1"></i>Check in</label>
+                                    <input class="w-100  form-control rounded-0 " placeholder="DD MM YYYY" type="text" required>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 gy-2">
+                                <div class="d-flex flex-column w-100">
+                                    <label for=""><i class="fa-regular fa-calendar me-1"></i>Check Out</label>
+                                    <input class="form-control rounded-0 " placeholder="DD MM YYYY" type="text" required>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 gy-2">
+                                <div class="d-flex flex-column w-100">
+                                    <label for=""><i class="fa-solid fa-child me-1"></i>Adults</label>
+                                    <input class="form-control rounded-0 " type="number" required>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 gy-2">
+                                <div class="d-flex flex-column w-100">
+                                    <label for=""><i class="fa-solid fa-child-reaching me-1"></i>Kids</label>
+                                    <input class="form-control rounded-0 "  type="number" required>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 gy-3 w-100">
+                                <button class=" py-2  px-3"><i class="fa-solid fa-magnifying-glass me-3"></i>Search availability</button>
+                            </div>
+                            
+                        </form>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+            <div class="col"></div>
+        </div>
+           
+        
+        <!--Next Rooms  -->
+
+
+        <div class="Rooms px-3 py-5" id="Rooms">
+            <p class="fs-3">Rooms</p>
+            <small class="fs-5 mb-5">Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.
+            </small>
+
+
+            <form class="row  mb-4">
+                <div class="col-sm  ">
+                    <div class=" d-flex flex-column w-100">
+                        <label for=""><i class="fa-regular fa-calendar me-1"></i>Check in</label>
+                        <input class="w-100  form-control rounded-0 " placeholder="DD MM YYYY" type="text" required>
+                    </div>
+                </div>
+
+                <div class="col-sm ">
+                    <div class="d-flex flex-column w-100">
+                        <label for=""><i class="fa-regular fa-calendar me-1"></i>Check Out</label>
+                        <input class="form-control rounded-0 " placeholder="DD MM YYYY" type="text" required>
+                    </div>
+                </div>
+
+                <div class="col-sm ">
+                    <div class="d-flex flex-column w-75">
+                        <label for=""><i class="fa-solid fa-child me-1"></i>Adults</label>
+                        <input class="form-control rounded-0 " type="number" required>
+                    </div>
+                </div>
+
+                <div class="col-sm ">
+                    <div class="d-flex flex-column w-75">
+                        <label for=""><i class="fa-solid fa-child-reaching me-1"></i>Kids</label>
+                        <input class="form-control rounded-0 "  type="number" required>
+                    </div>
+                </div>
+
+                <div class="col-sm  w-75 d-flex flex-column">
+                    <label for=""><i class="fa-solid fa-magnifying-glass me-1"></i>Search</label>
+                    <button class="w-75 px-2 py-2 ">Search</button>
+                </div> 
+            </form>
+
+            <div class="row m-0">
+                <div class="col-sm g-3">
+                    <div class="card rounded-0 fs-5" >
+                        <img src="https://www.w3schools.com/w3images/room_single.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title ">Single Room</h5>
+                          <p  class="card-subtitle mt-3">Form $<sub>99</sub></p>
+                          <p class="card-text mt-3">Single bed</p>
+                          <p class="card-text mt-3">15m<sup>2</sup></p>
+                          <h5 class="card-text"><i class="fa-solid fa-bath me-1 mb-3"></i><i class="fa-solid fa-phone me-1"></i><i class="fa-solid fa-wifi"></i></h5>
+                          <a href="#" class="btn  w-100 border-0 rounded-0">Choose Room</a>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="col-sm g-3">
+
+                    <div class="card rounded-0 fs-5" >
+                        <img src="https://www.w3schools.com/w3images/room_double.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title ">Double Room</h5>
+                          <p  class="card-subtitle mt-3">Form $<sub>149</sub></p>
+                          <p class="card-text mt-3">Queen-size bed</p>
+                          <p class="card-text mt-3">25m<sup>2</sup></p>
+                          <h5 class="card-text"><i class="fa-solid fa-bath me-1 mb-3"></i><i class="fa-solid fa-phone me-1"></i><i class="fa-solid fa-wifi me-1"></i><i class="fa-solid fa-tv"></i></h5>
+                          <a href="#" class="btn  w-100 border-0 rounded-0">Choose Room</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-sm g-3">
+
+
+                    <div class="card rounded-0 fs-5" >
+                        <img src="https://www.w3schools.com/w3images/room_deluxe.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title ">Deluxe Room</h5>
+                          <p  class="card-subtitle mt-3">Form $<sub>199</sub></p>
+                          <p class="card-text mt-3">King-size bed</p>
+                          <p class="card-text mt-3">40m<sup>2</sup></p>
+                          <h5 class="card-text"><i class="fa-solid fa-bath me-1 mb-3"></i><i class="fa-solid fa-phone me-1"></i><i class="fa-solid fa-wifi me-1"></i><i class="fa-solid fa-tv me-1"></i><i class="fa-solid fa-martini-glass-empty me-1"></i><i class="fa-solid fa-spoon"></i></h5>
+                          <a href="#" class="btn  w-100 border-0 rounded-0">Choose Room</a>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+
+
+            <div class="row mt-5" id="About">
+
+                <div class="col-sm-4">
+
+                    <h5>About</h5>
+                    <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    <p>We accept:<i class="fa-regular fa-credit-card mx-1"></i><i class="fa-brands fa-cc-mastercard me-1"></i><i class="fa-brands fa-cc-paypal"></i></p>
+
+                </div>
+                <div class="col-sm">
+                    <img src="https://www.w3schools.com/w3images/map.jpg" width="100%" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="row p-5 " id="address">
+                <div class="col-sm text-center fs-5
+                "> <span><i class="fa-solid fa-location-dot me-2"></i></span>423 Some adr, Chicago, US</div>
+                <div class="col-sm text-center fs-5"> <span><i class="fa-solid fa-phone me-2"></i></span>Phone: +00 151515</div>
+                <div class="col-sm text-center fs-5"> <span><i class="fa-solid fa-envelope me-2"></i></span>Email: mail@mail.com
+                </div>
+            </div>
+        </div>
+
+
+        <p class="w-100 p-4" id="line"> <label class="px-3 py-2 me-2" for="">i</label>On demand, we can offer playstation, babycall, children care, dog equipment, etc.
+        </p>
+
+
+
+        <!--  -->
+
+        <div class=" Ourhotel row p-4" >
+            <h3>Our Hotels</h3>
+
+            <p>You can find our hotels anywhere in the world:
+            </p>
+            <div class="col-sm-12">
+                <div class="bge-1 gri ">Cinque Terre
+                </div>
+                <div class="bge-2 gri ">New York
+                </div>
+                <div class="bge-3 gri ">San Francisco
+                </div>
+                <div class="bge-4 gri ">Pisa
+                </div>
+                <div class="bge-5 gri ">Paris
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!--  -->
+
+        <div class="subscribe px-3 py-5">
+            <h3>Get the best offers first!</h3>
+            <p>Join our newsletter.</p>
+            <form action="">
+                <div class="in">
+                    <label for="">E-mail</label>
+                    <input class="form-control rounded-0" placeholder="Your Email address" type="text">
+                </div>
+                <button style=" border: none; color: white;    background-color:rgb(238, 85, 38) ;" class="mt-3 px-3 py-2">Subscribe</button>
+            </form> 
+        </div>
+
+        <!--  -->
+        
+        <form class="px-3 py-5" id="Contact" action="">
+            <h4>Contact</h4>
+            <p>If you have any questions, do not hesitate to ask them.
+            </p>
+            <div class="addre">
+                <p> <i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +00 151515</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</p>
+            </div>
+
+            <input class="form-control mb-3 py-3 border-secondary" type="text" placeholder="Name">
+            <input class="form-control mb-3 py-3 border-secondary" type="text" placeholder="Email">
+            <input class="form-control mb-3 py-3 border-secondary" placeholder="Message" type="text">
+            <button class="py-2">SEND MESSAGE</button>
+        </form>
+
+
+        <!--  -->
+
+        <div class="end">
+            <p>Find Us On</p>
+            <p>
+                <span><i class="fa-brands fa-square-facebook"></i></span> <span><i class="fa-brands fa-instagram"></i></span> <span><i class="fa-brands fa-square-snapchat"></i></span> <span><i class="fa-brands fa-pinterest-p"></i></span> <span><i class="fa-brands fa-twitter"></i></span> <span><i class="fa-brands fa-linkedin"></i></span>
+            </p>
+            <address>Powered by <span>w3.css</span></address>
+        </div>
+
+
+    </div>
+</body>
+</html>

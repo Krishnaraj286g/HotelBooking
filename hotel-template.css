@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-main{
+    width: 100%;
+}
+
+.box-main .nave{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-main .nave  .ul1{
+    display: flex;
+    align-items: center;
+}
+
+.box-main .nave .ul1 a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+.box-main .nave .ul1 a:nth-child(1){
+    background-color: rgb(255, 60, 0);
+    color: white;
+}
+
+.box-main .nave .ul1 a:hover{
+    background-color: #808080;
+    color: black;
+}
+.box-main .nave button{
+    background-color: #edeaea;
+    border: none;
+    outline: none;
+
+    transition: 0.2s;
+}
+
+.box-main .nave button:hover{
+    background-color: #808080;
+}
+
+.box-main .nave button a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    
+}
+
+
+
+
+/*  */
+
+.box-main .hotelname{
+    width: 100%;
+     height: 100vh;
+ 
+     background-image:url(https://www.w3schools.com/w3images/hotel.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+ .box-main .hotelname .col-sm-6{
+    display: flex;
+    align-items: center;
+ }
+
+
+ .box-main .hotelname .col-sm-6 ul li form .col-sm-6:nth-child(5) button{
+    background-color: #808080;
+    color: black;
+    border: none;
+ }
+
+ .box-main .hotelname .col-sm-6 ul li form .col-sm-6:nth-child(5) button:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.2s;
+ }
+
+ /*  */
+
+
+ .Rooms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fef9f9;
+ }
+
+ .Rooms form .col-sm button{
+    color: white;
+    border: none;
+    background-color: black;
+    transition: 0.2s;
+ }
+
+ .Rooms form .col-sm button:hover{
+    color: black;
+    background-color: #d9d6d6;
+ }
+
+ .Rooms .row  .col-sm .card .card-body a{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+ }
+
+ .Rooms .row  .col-sm .card .card-body a:hover{
+    color: black;
+    background-color: #808080;
+ }
+
+ #address .col-sm span{
+    color: rgb(255, 60, 0);
+ }
+
+ #line{
+    background-color: rgb(255, 60, 0);
+    color: white;
+ }
+
+ #line label{
+    background-color:rgb(238, 85, 38) ;
+    color: white; 
+ }
+
+ .Ourhotel{
+    width: 100%;
+ }
+
+.Ourhotel .col-sm-12{
+height: 550px;
+display: grid;
+gap: 10px;
+grid-template-columns:3,1fr ;
+grid-template-rows: 2,1fr;
+grid-template-areas: 
+'c c n s'
+'c c p pa'
+;
+}
+
+.Ourhotel  .col-sm-12 .gri{
+font-size: 20px;
+color: white;
+display: flex;
+align-items: end;
+padding: 20px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.bge-1{
+    grid-area: c;
+    background-image: url(https://www.w3schools.com/w3images/cinqueterre.jpg);
+}
+
+.bge-2{
+    grid-area: n;
+    background-image: url(https://www.w3schools.com/w3images/newyork2.jpg);
+}
+
+.bge-3{
+    grid-area: s;
+    background-image: url(https://www.w3schools.com/w3images/sanfran.jpg);
+}
+
+.bge-4{
+    grid-area: p;
+    background: url(https://www.w3schools.com/w3images/pisa.jpg);
+}
+
+.bge-5{
+    grid-area: pa;
+    background-image: url(https://www.w3schools.com/w3images/paris.jpg);
+}
+
+.subscribe{
+    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+}
+
+.subscribe:hover{
+    opacity:1;
+}
+.subscribe form  button:hover{
+    color: black !important;
+    transition: 0.2s;
+    background-color: #808080 !important;
+}
+
+ .box-main #Contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fcf9f9;
+} 
+
+.box-main #Contact button{
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: none;
+    transition: 0.3s;
+}
+
+.box-main #Contact button:hover{
+    background-color: #808080;
+    color: black;
+}
+
+.box-main .end{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+}
+.box-main .end p span:hover{
+    color: #808080;
+}
+
+.box-main .end address span:hover{
+
+    color: greenyellow;
+}
+
+
+@media (max-width:560px){
+
+    .Ourhotel{
+        width: 100%;
+     }
+    
+    .Ourhotel .col-sm-12{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:1,1fr ;
+    grid-template-rows: 5,1fr;
+    grid-template-areas: 
+    'c' 'n' 's' 'p' 'pa'    ;
+    height: 900px;
+    }
+
+    .Ourhotel  .col-sm-12 .gri{
+        font-size: 20px;
+        height: auto;
+        color: white;
+        display: flex;
+        align-items: end;
+        padding: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+
+        .box-main .nave{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .box-main .nave  .ul1{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box-main .nave .ul1 a{
+            width: 100%;
+        }
+
+        .box-main .nave button{
+            text-decoration: none;
+            padding: 10px 20px;
+            color: black;
+            width: 100%;
+        }
+
+}
